@@ -1,0 +1,62 @@
+[31-Mar-2012 09:30:09] PHP Fatal error:  Call to undefined function signup() in C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php on line 26
+[31-Mar-2012 09:30:09] PHP Stack trace:
+[31-Mar-2012 09:30:09] PHP   1. {main}() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:0
+[31-Mar-2012 09:44:25] PHP Notice:  Use of undefined constant HEADER_REGISTRO - assumed 'HEADER_REGISTRO' in C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\templates\signupForm.php on line 6
+[31-Mar-2012 09:44:25] PHP Stack trace:
+[31-Mar-2012 09:44:25] PHP   1. {main}() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:0
+[31-Mar-2012 09:44:25] PHP   2. signup() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:28
+[31-Mar-2012 09:44:25] PHP   3. require() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:148
+[31-Mar-2012 09:46:49] PHP Notice:  Use of undefined constant BOTON_CANCELAR - assumed 'BOTON_CANCELAR' in C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\templates\signupForm.php on line 32
+[31-Mar-2012 09:46:49] PHP Stack trace:
+[31-Mar-2012 09:46:49] PHP   1. {main}() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:0
+[31-Mar-2012 09:46:49] PHP   2. signup() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:28
+[31-Mar-2012 09:46:49] PHP   3. require() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:148
+[31-Mar-2012 11:13:39] PHP Notice:  Use of undefined constant BOTON_REGISTRAR - assumed 'BOTON_REGISTRAR' in C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\templates\sendPasswordNotFound.php on line 16
+[31-Mar-2012 11:13:39] PHP Stack trace:
+[31-Mar-2012 11:13:39] PHP   1. {main}() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:0
+[31-Mar-2012 11:13:39] PHP   2. sendPassword() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:29
+[31-Mar-2012 11:13:39] PHP   3. require() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:195
+[31-Mar-2012 11:22:05] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\classes\User.php on line 100
+[31-Mar-2012 11:22:05] PHP Stack trace:
+[31-Mar-2012 11:22:05] PHP   1. {main}() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:0
+[31-Mar-2012 11:22:05] PHP   2. sendPassword() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:29
+[31-Mar-2012 11:22:05] PHP   3. User->sendPassword() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:203
+[31-Mar-2012 11:22:05] PHP   4. mail() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\classes\User.php:100
+[31-Mar-2012 11:23:13] PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\classes\User.php on line 100
+[31-Mar-2012 11:23:13] PHP Stack trace:
+[31-Mar-2012 11:23:13] PHP   1. {main}() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:0
+[31-Mar-2012 11:23:13] PHP   2. sendPassword() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:29
+[31-Mar-2012 11:23:13] PHP   3. User->sendPassword() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:203
+[31-Mar-2012 11:23:13] PHP   4. mail() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\classes\User.php:100
+[31-Mar-2012 18:54:42] PHP Notice:  Undefined index: todoId in C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php on line 305
+[31-Mar-2012 18:54:42] PHP Stack trace:
+[31-Mar-2012 18:54:42] PHP   1. {main}() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:0
+[31-Mar-2012 18:54:42] PHP   2. editTodo() C:\wamp\www\appMobiles\Master-jquery-mobile\chapter12\task-tango\index.php:29
+[31-Mar-2012 20:16:12] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php:168
+Stack trace:
+#0 /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php(168): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(59): User::getByEmailAddress('')
+#2 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(29): login()
+#3 {main}
+  thrown in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php on line 168
+[31-Mar-2012 20:16:19] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php:168
+Stack trace:
+#0 /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php(168): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(59): User::getByEmailAddress('')
+#2 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(29): login()
+#3 {main}
+  thrown in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php on line 168
+[31-Mar-2012 20:17:48] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php:168
+Stack trace:
+#0 /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php(168): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(59): User::getByEmailAddress('javi@terra.es')
+#2 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(29): login()
+#3 {main}
+  thrown in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php on line 168
+[31-Mar-2012 20:30:54] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'jqueryMobile'@'188.121.41.22' (using password: YES)' in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php:168
+Stack trace:
+#0 /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php(168): PDO->__construct('mysql:host=jque...', 'jqueryMobile', 'jqueryPass1')
+#1 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(59): User::getByEmailAddress('javi@terra.es')
+#2 /home/content/52/6581652/html/pruebas/asignacionTareas/index.php(29): login()
+#3 {main}
+  thrown in /home/content/52/6581652/html/pruebas/asignacionTareas/classes/User.php on line 168
